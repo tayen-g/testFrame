@@ -3,37 +3,21 @@
 
 首先是框架的目录结构
 │  index.php            框架入口文件  
-
 ├─app                   application目录  
-
 │  ├─controller        
-
 │  ├─model        
-
 │  └─view  
-
 ├─core                  核心文件目录  
-
 │  │  keyfile.php  
-
 │  ├─common             公共文件目录  
-
 │  ├─config             配置文件目录  
-
 │  └─libs               库文件目录  
-
 │      │  config.php  
-
 │      │  log.php  
-
 │      │  route.php    
-
 │      └─drivers        驱动文件目录  
-
 │          └─log                   
-
 ├─log                   日志目录  
-
 └─vendor                composer目录  
 
 
