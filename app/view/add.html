@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="http://127.0.0.1/testFramework/index/save" method="post">
+<filedset>
+<legend>添加留言</legend>
+<input type="text" name="title" placeholder="请输入title">
+<textarea name="content" placeholder="请输入留言内容"></textarea>
+<button type="submit" >提交</button>
+</filedset>
+</form>
+{% endblock %}

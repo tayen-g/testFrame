@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<ul>
+    {% for val in data%}
+    <li>
+        <div>
+            <h3>
+                {{ val.title}}
+            </h3>
+            <p>
+                {{ val.content }}
+            </p>
+            <p>
+                <span>
+                    {{ val.CreateTime }}
+                </span>
+            </p>
+            <a href="http://127.0.0.1/testFramework/index/deleteOne/id/{{ val.id }}">
+                删除
+            </a>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
