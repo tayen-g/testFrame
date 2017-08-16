@@ -1,7 +1,7 @@
 # testFrame
 学习MVC模式的过程中，写了一个简单的框架。并且用这个框架实现了一个简单的留言板。
 
-首先是框架的目录结构
+首先是框架的目录结构  
 │  index.php            框架入口文件  
 ├─app                   application目录  
 │  ├─controller        
